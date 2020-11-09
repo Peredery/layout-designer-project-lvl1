@@ -1,1 +1,75 @@
 /** CSS STYLE **/
+@font-face {
+  font-family: OpenSans, sans-serif; /* Имя шрифта */
+  src: url(src/fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Neucha, sans-serif; /* Имя шрифта */
+  src: url(src/fonts/Neucha-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  max-width: 1110px;
+  margin: 0 100px 0 100px;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: Neucha, sans-serif;
+}
+
+h3 {
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+}
+
+.white {
+  color: #fff;
+}
+
+.translucent-white {
+  color: #d7ccc0;
+}
+
+.light {
+  color: #f5f4f0;
+}
+
+.primary {
+  color: #fe8a02;
+}
+
+.primary-dark {
+  color: #42413c;
+}
+
+.dark {
+  color: #2a2626;
+}
+
+.translucent-dark {
+  color: #908d8b;
+}
+
+.brown {
+  color: #b09a81;
+}
+
+.blue {
+  color: #1085c5;
+}
+
+.section {
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  line-height: 1.6em;
+}
