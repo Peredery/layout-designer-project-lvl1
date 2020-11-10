@@ -34,6 +34,18 @@
   margin-top: 29px;
 }
 
+.mt-36 {
+  margin-top: 36px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .fullwidth-block {
   width: 100%;
 }
@@ -47,6 +59,12 @@
   margin: auto;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.video {
+  position: relative;
+  margin: 0 auto -200px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .btn {
@@ -79,6 +97,10 @@ h2 {
 h3 {
   font-size: 34px;
   font-family: Neucha, sans-serif;
+}
+
+.tx-align-center {
+  text-align: center;
 }
 
 .white {
@@ -119,6 +141,10 @@ h3 {
 
 .bg-light {
   background: #f5f4f0;
+}
+
+.bg-white {
+  background: #ffffff;
 }
 
 .text-block {
