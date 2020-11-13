@@ -45,3 +45,23 @@
 .blue {
   color: var(--blue);
 }
+
+.bg-light {
+  background: var(--light);
+}
+
+.bg-white {
+  background: var(--white);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+
+.bg-brown {
+  background-color: var(--brown);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
