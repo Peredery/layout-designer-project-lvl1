@@ -1,19 +1,7 @@
-##
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/hexletguides.github.io/master/images/hexlet_logo128.png)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package)
+![surge.sh](https://img.shields.io/badge/surge.sh-Live%20preview-brightgreen?link=peredery-layot-designer-project-lvl1.surge.sh&link=peredery-layot-designer-project-lvl1.surge.sh)
 
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet (in Russian)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package).
-##
+### Study project at Hexlet
 
-# HTML/CSS Boilerplate
+Live preview: [peredery-layot-designer-project-lvl1.surge.sh](peredery-layot-designer-project-lvl1.surge.sh)
 
-## Setup
-
-```sh
-$ make install
-```
-
-## Run lint
-
-```sh
-make lint
-```
+Figma: [layout](https://www.figma.com/file/xKlFOsDjAf22E9T0MTkoDg/Hexlet-LayoutDesigner-Project.-Cognitive-Biases)
