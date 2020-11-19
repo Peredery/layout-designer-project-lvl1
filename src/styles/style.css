@@ -60,18 +60,22 @@
   padding: 7px 0 7px 8px;
 }
 
-.manifest-dark {
+.manifest-white {
   color: var(--dark);
   font-size: 14px;
   font-family: OpenSans, sans-serif;
   text-transform: uppercase;
+
+  background-color: var(--white);
 }
 
-.manifest-white {
+.manifest-dark {
   color: var(--white);
   font-size: 14px;
   font-family: OpenSans, sans-serif;
   text-transform: uppercase;
+
+  background-color: var(--brown);
 }
 
 .h-30 {
