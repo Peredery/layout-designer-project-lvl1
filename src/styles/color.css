@@ -10,7 +10,7 @@
   --blue: #1085c5;
 }
 
-.white {
+.color-white {
   color: var(--white);
 }
 
@@ -22,7 +22,7 @@
   color: var(--light);
 }
 
-.primary {
+.color-primary {
   color: var(--primary);
 }
 
@@ -30,11 +30,11 @@
   color: var(--primary-dark);
 }
 
-.dark {
+.color-dark {
   color: var(--dark);
 }
 
-.translucent-dark {
+.color-translucent-dark {
   color: var(--translucent-dark);
 }
 
