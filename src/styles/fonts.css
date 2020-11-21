@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "opensans";
+  src: url(../fonts/OpenSans-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "neucha";
+  src: url(../fonts/Neucha-Regular.ttf) format("opentype");
+}
+
+:root {
+  --font-familty-neucha: neucha, sans-serif;
+  --font-familty-opensans: opensans, sans-serif;
+}
