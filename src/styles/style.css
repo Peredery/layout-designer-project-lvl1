@@ -20,12 +20,13 @@
 .row {
   display: flex;
   flex-basis: 100%;
+  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
 
 .flex-col {
-  flex: 1 1 100%;
+  flex: 1 0 50%;
   flex-direction: column;
   padding-right: 15px;
   padding-left: 15px;
