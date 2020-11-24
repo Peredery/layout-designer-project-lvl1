@@ -26,8 +26,7 @@
 }
 
 .flex-col {
-  flex: 1 0 50%;
-  flex-direction: column;
+  flex: 1 0 30%;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -56,6 +55,7 @@
 
 .manifest-white {
   color: var(--dark);
+  font-weight: 700;
   font-size: 14px;
   font-family: var(--font-familty-opensans);
   line-height: 30px;
@@ -66,6 +66,7 @@
 
 .manifest-dark {
   color: var(--white);
+  font-weight: 700;
   font-size: 14px;
   font-family: var(--font-familty-opensans);
   line-height: 30px;
@@ -104,10 +105,6 @@
 
 .mb-20 {
   margin-bottom: 20px;
-}
-
-.mb-16 {
-  margin-bottom: 16px;
 }
 
 .mb-10 {
@@ -151,10 +148,25 @@
   padding: 55px 37px;
 }
 
-.card-item {
-  flex-basis: 350px;
-  box-sizing: border-box;
+.footer-copyright-block {
+  flex-direction: column;
+
+  font-size: 14px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.card {
+  display: block;
+  height: 100%;
   padding: 24px;
+}
+
+.card-light {
+  color: var(--dark);
+  text-decoration: none;
+
+  background-color: var(--light);
 }
 
 .btn {
@@ -162,17 +174,12 @@
 }
 
 .btn-primary {
+  color: var(--white);
+  font-weight: 700;
+  text-transform: uppercase;
   text-decoration: none;
 
   background-color: #fe8a02;
-}
-
-.decoration-none {
-  text-decoration: none;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
 
 h1,
@@ -206,16 +213,18 @@ h3,
   line-height: 1.2em;
 }
 
-.card-section-title {
-  flex-basis: 350px;
+.footer-email-label {
+  font-weight: 700;
+
+  font-size: 18px;
 }
 
 .align-self-center {
   align-self: center;
 }
 
-.fz-52px {
-  font-size: 52px;
+.fz-51px {
+  font-size: 51px;
 }
 
 .fz-34px {
@@ -224,10 +233,6 @@ h3,
 
 .fz-18px {
   font-size: 18px;
-}
-
-.fz-14px {
-  font-size: 14px;
 }
 
 .fz-12px {
@@ -248,7 +253,7 @@ body {
   line-height: 1.6em;
 }
 
-.card-item-number {
+.card-head-number {
   margin-bottom: 40px;
 
   font-size: 64px;
@@ -256,7 +261,7 @@ body {
   line-height: 1em;
 }
 
-.card-item:hover {
+.card-light:hover {
   background-color: var(--primary);
 }
 
@@ -264,11 +269,11 @@ body {
   background-color: #ea7600;
 }
 
-.card-item:hover * {
+.card-light:hover * {
   color: var(--white);
 }
 
-.card-item:visited {
+.card-light:visited {
   color: var(--dark);
 }
 
